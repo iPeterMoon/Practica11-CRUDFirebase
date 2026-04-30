@@ -221,6 +221,7 @@ class MainActivity : AppCompatActivity() {
                                 .setPositiveButton("Aceptar") { _, _ ->
                                     targetNode?.ref?.child("nombre")?.setValue(nom)
                                     Toast.makeText(this@MainActivity, "Modificado!", Toast.LENGTH_SHORT).show()
+                                    listarLuchadores()
                                 }
                                 .setNegativeButton("Cancelar", null)
                                 .show()
@@ -257,6 +258,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     override fun onCancelled(error: DatabaseError) {}
                 })
+                listarLuchadores()
             }
         }
     }
