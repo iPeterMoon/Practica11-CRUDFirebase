@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747580319715",
+    "project_id": "practica11-bebe9",
+    "storage_bucket": "practica11-bebe9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747580319715:android:56cd34d2d16118f2fd62d6",
+        "android_client_info": {
+          "package_name": "com.example.practica11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZKFqP0R3XJ_CiStrAgRCMkFjBMYO8unw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
